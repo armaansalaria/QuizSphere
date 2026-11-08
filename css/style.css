@@ -1,0 +1,17 @@
+header{
+    position: sticky;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 25px 5%;
+
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
