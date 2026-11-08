@@ -16,7 +16,7 @@ header{
 }
 
 .logo a {
-    font-size: 28px;
+    font-size: 26px;
     font-weight: 700;
     text-decoration: none;
     color: #0f172a;
@@ -27,7 +27,20 @@ header{
     list-style: none;
     display: flex;
     text-align: center;
+    align-items: center;
     gap: 40px;
     margin: 0;
     padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    transition: color 0.2s ease, transform 0.2s ease;
+    position: relative;
+}
+
+.nav-links a:hover {
+    color: black;
 }
