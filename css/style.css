@@ -2,7 +2,7 @@ body{
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(244, 240, 255);
 }
 
 header{
@@ -36,13 +36,13 @@ header{
 .nav-links a {
     text-decoration: none;
     font-size: 20px;
-    color: grey;
+    color: black;
     transition: color 0.2s ease, transform 0.2s ease;
     position: relative;
 }
 
 .nav-links a:hover {
-    color: black;
+    color: grey;
 }
 
 .section1{
@@ -50,6 +50,14 @@ header{
     padding: 25px 8%;
     border-bottom: 1px solid grey;
 
+}
+
+.hdr1{
+    background-color: rgb(212, 233, 255);
+    color: rgb(0, 106, 255);
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border-radius: 999px;
 }
 
 .btn1{
@@ -62,10 +70,36 @@ header{
     color: white;
     background-color: #5d55ed;
     border: transparent;
-    transition: all 0.4s ease;
+    transition: all 0.6s ease;
 }
 
 .btn1:hover{
     text-decoration: none;
-    background-color: #a3a2c1;
+    /*color: #5d55ed;
+    background-color: white;*/
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px #7e77fb;
+}
+
+.btn1:active{
+    transform:translateY(0);
+}
+
+.btn2{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 8px 16px;
+    color: #5d55ed;
+    background-color: white;
+    border: transparent;
+    transition: all 0.6s ease;
+}
+
+.btn2:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #5d55ed;
 }
